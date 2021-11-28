@@ -5,6 +5,8 @@
     <title>HOJE</title>
     <script>
     console.clear();
+    
+    //Função que cria data e hora
     function verHoraEData(){
         let data = new Date();
         let ano = data.getFullYear();
@@ -16,6 +18,8 @@
         let s = hora.getSeconds();
         m = zero(m);
         s = zero(s);
+
+        //Printa no console a hora, data, e atualizações
         console.log(document.getElementById('relogio').innerHTML = h+':'+m+':'+s);
         console.log('');
         console.log(document.getElementById('data').innerHTML = dia+'/'+mes+'/'+ano);
