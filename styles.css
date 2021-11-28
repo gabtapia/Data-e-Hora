@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap');
+
+body {
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 5em;
+    font-family: montserrat alternates;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+
+  .div-principal {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+
+  #relogio {
+    position: absolute;
+    left: 350px;
+    top: 100px;
+  }
+
+  #data {
+    font-size: 50px;
+    position: absolute;
+    right: 10px;
+    bottom: -50px;
+  }
